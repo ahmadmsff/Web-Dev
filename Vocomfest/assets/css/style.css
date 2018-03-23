@@ -8,3 +8,31 @@ a {
     text-decoration: none;
 }
 
+/* CSS */
+.header {
+    height: 50px;
+    border: 1px solid red;
+}
+
+.content {
+    height: 583px;
+    border: 1px solid blue;
+}
+
+.footer {
+ padding: 10px 30px;
+ background: #252525;
+ color: #ffffff;
+}
+
+.footer_kiri {
+    float: left;
+}
+
+.footer_kanan {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
