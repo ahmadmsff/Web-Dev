@@ -15,7 +15,7 @@ a {
 }
 
 .content {
-    height: 583px;
+    height: 100vh;
     border: 1px solid blue;
 }
 
