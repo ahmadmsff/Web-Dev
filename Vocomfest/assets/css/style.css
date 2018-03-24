@@ -18,7 +18,7 @@ h1, h2, h3,h4 {
 .navbar {
     padding: 10px 30px;
     height: 30px;
-    background: blue;
+    background: #004ba0;
     color: #ffffff;
 }
 
@@ -35,13 +35,13 @@ h1, h2, h3,h4 {
     padding: 5px 10px;
 }
 .navbar_item:hover {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #1976d2;
     cursor: pointer;
 }
 
 .slider {
     height: 625px;
-    background: #4d4049;
+    background: #ffffff;
 }
 
 .content {
@@ -50,13 +50,12 @@ h1, h2, h3,h4 {
 }
 
 .kotak_item {
- border: 1px solid blue;
  padding: 30px 0 15px 0;
  text-align: center;
 }
 
 .judul_kotak {
-    background: #252525;
+    background: #0069c0;
     text-align: center;
     padding: 30px;
     color: #ffffff;
@@ -81,7 +80,8 @@ h1, h2, h3,h4 {
 
 
 #container{
-    margin: 30px 0; 
+    padding: 30px 0; 
+    background: #64b5f6;
 }
 
 #list-container {
@@ -204,9 +204,24 @@ h1, h2, h3,h4 {
     padding: 5px 0px 5px 8px;
 }
 
+.contact {
+    height: 200px;
+    background: #1976d2;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.social_item {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    margin: 20px;
+}
+
 .footer {
  padding: 10px 30px;
- background: #252525;
+ background: #004ba0;
  color: #ffffff;
 }
 
@@ -225,3 +240,23 @@ h1, h2, h3,h4 {
     background: none;
     width: 20px;
 }
+
+#btnTop {
+    width:80px; 
+	height:80px;
+	padding:10px; 
+	text-align:center; 
+	background: red;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	position:fixed;
+	bottom:40px;
+	right:40px;
+	display:none;
+  }
+  
+  #btnTop:hover {
+    text-decoration:none;
+    background: blue;
+  }
