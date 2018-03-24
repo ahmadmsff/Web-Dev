@@ -51,7 +51,7 @@ h1, h2, h3,h4 {
 
 .kotak_item {
  border: 1px solid blue;
- padding: 15px 0 15px 0;
+ padding: 30px 0 15px 0;
  text-align: center;
 }
 
@@ -79,13 +79,55 @@ h1, h2, h3,h4 {
     margin: 0 10px 20px 10px;
 }
 
-.kategori_destinasi {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    margin: 0 10px 0 10px;
+
+#container{
+    margin: 30px 0; 
 }
+
+#list-container {
+    overflow:hidden;      
+    float:left;    
+    width: 100%;
+}
+
+.list{
+    float:left;
+    min-width: 2100px;
+    padding: 0px 40px;
+}
+
+
+#arrowR{
+    background: yellow;
+    width:30px;
+    height:280px;
+    float:right;
+    cursor:pointer;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+
+#arrowL{
+    position: absolute;
+    background:yellow;
+    width:30px;
+    height:280px;
+    float:left;
+    cursor:pointer;
+    z-index: 1;
+}
+
+.item{
+    background:green;
+    width:250px;
+    height:250px;;
+    margin:15px;
+    float:left;
+    position: relative;
+}
+    
 
 .kotak_event {
     padding: 50px 80px;
@@ -119,6 +161,49 @@ h1, h2, h3,h4 {
     min-height: 600px;
 }
 
+.galeri{
+    padding: 20px 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.judul_galeri {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.galeri_item {
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+.galeri_gambar {
+    background: pink;
+    width: 314px;
+    height: 221px;
+}
+
+.galeri_judul {
+    text-align: left;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.galeri_deskripsi {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.read_more_btn {
+    text-align: left;
+    margin: 10px 0;
+    color: #ffffff;
+    background: #252525;
+    width: 80px;
+    padding: 5px 0px 5px 8px;
+}
+
 .footer {
  padding: 10px 30px;
  background: #252525;
@@ -135,4 +220,8 @@ h1, h2, h3,h4 {
 
 .clearfix {
     clear: both;
+}
+.hidden {
+    background: none;
+    width: 20px;
 }
