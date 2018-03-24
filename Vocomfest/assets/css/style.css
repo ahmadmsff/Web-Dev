@@ -9,15 +9,114 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+
 /* CSS */
-.header {
-    height: 50px;
-    border: 1px solid red;
+.navbar {
+    padding: 10px 30px;
+    height: 30px;
+    background: blue;
+    color: #ffffff;
+}
+
+.navbar_logo {
+    float: left;
+}
+
+.navbar_menu {
+    float: right;
+}
+
+.navbar_item {
+    float: left;
+    padding: 5px 10px;
+}
+.navbar_item:hover {
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.slider {
+    height: 625px;
+    background: #4d4049;
 }
 
 .content {
-    height: 100vh;
-    border: 1px solid blue;
+    background: #f3f3f3;
+    min-height: 350px;
+}
+
+.kotak_item {
+ border: 1px solid blue;
+ padding: 15px 0 15px 0;
+ text-align: center;
+}
+
+.judul_kotak {
+    background: #252525;
+    text-align: center;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.more_btn {
+    width: 80px;
+    height: 20px;
+    background: black;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.kategori_wisata {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 0 10px 0 10px;
+}
+
+.kategori_destinasi {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 0 10px 0 10px;
+}
+
+.kotak_event {
+    padding: 50px 80px;
+}
+
+.event_item {
+ min-height: 300px;
+ display: inline-block;
+ width: 100%;
+ margin-bottom: 100px; 
+}
+
+.event_detail_kiri {
+    width: 40%;
+    float: left;
+    padding-left: 80px;
+}
+
+
+.event_detail_kanan {
+    width: 40%;
+    float: left;
+    padding-right: 80px;
+    text-align: right
+}
+
+.event_gambar {
+    float: left;
+    width: 50%;
+    background: orange;
+    min-height: 600px;
 }
 
 .footer {
