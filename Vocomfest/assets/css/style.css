@@ -100,7 +100,7 @@ h1, h2, h3,h4 {
 #arrowR{
     background: yellow;
     width:30px;
-    height:280px;
+    height:2    80px;
     float:right;
     cursor:pointer;
     position: absolute;
@@ -159,6 +159,19 @@ h1, h2, h3,h4 {
     width: 50%;
     background: orange;
     min-height: 600px;
+}
+
+.keterangan_event_kiri {
+    margin-top: 20px;
+    font-size: 25px;
+    padding-right: 90px;
+}
+
+
+.keterangan_event_kanan {
+    margin-top: 20px;
+    font-size: 25px;
+    padding-left: 90px;
 }
 
 .galeri{
