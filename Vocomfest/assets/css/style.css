@@ -28,7 +28,7 @@ h1 {
 
 img {
     width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 
 /* CSS */
@@ -57,9 +57,55 @@ img {
 }
 
 .slider {
-    height: 625px;
+    height: 768px;
     background: #ffffff;
 }
+
+.mySlides {
+    display:none;
+}
+
+.slider_container{
+  position: relative;
+  height: 768px;
+  overflow: hidden;
+}
+.slider_caption{
+position:absolute;
+color:#fff;
+border-left: 5px solid orange;
+padding-left: 20px;
+top:50%;
+left:20%;
+transform:translate(-50%,-50%);
+-ms-transform:translate(-50%,-50%)
+}
+
+.caption_title h1{
+    font-size: 30px;
+    left: 20%;
+    margin-bottom: 20px;
+}
+
+.discover_btn {
+    background: #f11d2d;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.discover_btn:hover {
+    background: #de0e1e;
+}
+
+.animate {
+  position:relative;
+  animation:darikanan 2s
+}
+@keyframes darikanan{
+  from{right:-300px;opacity:0} 
+  to{right:0;opacity:1}
+}}
 
 .content {
     background: #f3f3f3;
