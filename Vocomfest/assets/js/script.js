@@ -22,7 +22,7 @@ $(document).ready(function() {
     var $item = $('div.item'), 
         visible = 2, //Set the number of items that will be visible
         index = 0, //Starting index
-        endIndex = ( $item.length / visible ) - 1; //End index
+        endIndex = ( $item.length / visible ) - 2; //End index
     
     $('div#arrowR').click(function(){
         if(index < endIndex ){
