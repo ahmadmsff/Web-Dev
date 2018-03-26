@@ -47,7 +47,7 @@ img {
 }
 .navbar_logo img{
     width: 100%;
-    padding: 8px 0 0 25px;
+    padding: 13px 0 0 25px;
 }
 
 
@@ -474,9 +474,13 @@ transform:translate(-50%,-50%);
 
 .social_item {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: auto;
     margin: 30px 50px;
+}
+
+.social_item:hover {
+    cursor: pointer;
 }
 
 .footer {
@@ -671,7 +675,7 @@ header .bg{
     border: 2px solid #64b5f6;
     font-size: 14px;
     font-weight: bold;
-    font-style: italic;
+    transition: 0.5s;
 }
 .more_event1:hover{
     background-color: #64b5f6;
@@ -850,4 +854,13 @@ img.hover-shadow {
 }
 .galery1_title h1{
     font-size: 38px;
+}
+
+.judul_isi {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sidebar_desc{
+    margin-bottom: 10px;
 }
