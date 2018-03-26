@@ -712,9 +712,17 @@ header .bg{
   float: left;
   width: 24%;
   margin-left: 12px;
+  margin-bottom: 12px;
 }
 .column img{
     height: 40vh;
+}
+
+.column:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /* The Modal (background) */
