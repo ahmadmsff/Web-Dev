@@ -86,6 +86,8 @@ ul li.navbar_item {float: right;}
 
 /* End Navbar */
 
+/* Slider */
+
 .slider {
     height: 768px;
     background: #ffffff;
@@ -117,6 +119,10 @@ transform:translate(-50%,-50%);
     margin-bottom: 20px;
 }
 
+/* End Slider */
+
+/* Discover */
+
 .discover_btn {
     background: #f11d2d;
     color: #fff;
@@ -135,7 +141,7 @@ transform:translate(-50%,-50%);
 @keyframes darikanan{
   from{right:-300px;opacity:0} 
   to{right:0;opacity:1}
-}}
+}
 
 .content {
     background: #f3f3f3;
@@ -185,7 +191,6 @@ transform:translate(-50%,-50%);
     margin: 0 10px 20px 10px;
 }
 
-/* Image show title animate fade */
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
@@ -247,7 +252,10 @@ transform:translate(-50%,-50%);
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
 }
-/* End */
+
+/* End Discover */
+
+/* Destinasi */
 
 #container{
     padding: 30px 0; 
@@ -326,6 +334,9 @@ transform:translate(-50%,-50%);
     margin: 0 20px;
 }
     
+/* End Destinasi */
+
+/* Event */
 
 .kotak_event {
     padding: 50px 80px;
@@ -371,6 +382,10 @@ transform:translate(-50%,-50%);
     font-size: 20px;
     padding-left: 90px;
 }
+
+/* End Event */
+
+/* Galeri */
 
 .galeri{
     padding: 20px 80px;
@@ -440,6 +455,10 @@ transform:translate(-50%,-50%);
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
+
+/* End Galeri */
+
+/* Lain-lain */
 
 .contact {
     height: 200px;
