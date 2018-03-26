@@ -54,4 +54,20 @@ $(document).ready(function() {
 		return false;
 	});
     // End Scroll to top
+
+    // Scroll to section
+    $(document).ready(function(){
+    $(".navbar_item").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+            scrollTop: $(hash).offset().top
+            }, 800, function(){
+            window.location.hash = hash;
+            });
+        }
+        });
+    });
+    // End scroll to section
 });
