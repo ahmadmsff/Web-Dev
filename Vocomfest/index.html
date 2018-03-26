@@ -10,7 +10,7 @@
     </head>
     <body>
         <!-- Navbar -->
-        <div class="navbar">
+        <!-- <div class="navbar">
             <div class="navbar_logo">
                 <img src="assets/img/logo.png" title="Vocomfest Logo">
             </div>
@@ -33,11 +33,22 @@
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>
+        </div> -->
+        <div class="navbar">
+            <ul>
+                  <li class="navbar_logo"><img src="assets/img/logo.png" alt="" srcset=""></li>
+                  <li class="navbar_item"><a class="navbar_link" href="#galeri">Gallery</a></li>
+                  <li class="navbar_item"><a class="navbar_link" href="#event">Event</a></li>
+                  <li class="navbar_item"><a class="navbar_link" href="#destinasi">Destination</a></li>
+                  <li class="navbar_item"><a class="navbar_link" href="#discover">Discover</a></li>
+                  <li class="navbar_item"><a class="navbar_link" class="active" href="#home">Home</a></li>
+            </ul>
         </div>
         <!-- End Navbar -->
         
         <!-- Header -->
-        <div class="slider" id="home">
+        <div class="scroll" id="home"></div>
+        <div class="slider">
             <div class="slider_container mySlides animate">
                 <img src="assets/img/slider1.jpg">
                 <div class="slider_caption">
@@ -87,7 +98,8 @@
         <!-- Content -->
         <div class="content">
             <!-- Kategori Wisata -->
-            <div class="kotak_item" id="discover">
+            <div class="scroll" id="discover"></div>
+            <div class="kotak_item">
                     <div class="kategori_wisata">
                         <a href="#">
                             <div class="hvrbox">
@@ -132,7 +144,8 @@
                 <a href="#" title="Show More"><div class="more_btn" >Load More</div></a>
             </div>
             <!-- Destinasi Favorit -->
-            <div class="judul_kotak" id="destinasi">
+            <div class="scroll" id="destinasi"></div>
+            <div class="judul_kotak">
                 <h1>Destinasi Favorit</h1>
             </div>
             
@@ -193,7 +206,8 @@
                 <div class="clearfix"></div>
             </div>
 
-            <div class="kotak_event" id="event">
+            <div class="scroll" id="event"></div>
+            <div class="kotak_event">
                 <div class="event_item">
                     <div class="event_detail_kiri">
                         <div class="judul_event">
@@ -252,7 +266,8 @@
                 </div>
             </div>
 
-            <div class="galeri" id="galeri">
+            <div class="scroll" id="galeri"></div>
+            <div class="galeri">
                 <h1 class="judul_galeri">Galeri Gambar</h1>
                 <div class="galeri_item">
                     <div class="galeri_gambar">

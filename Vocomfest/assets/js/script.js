@@ -57,7 +57,7 @@ $(document).ready(function() {
 
     // Scroll to section
     $(document).ready(function(){
-    $(".navbar_item").on('click', function(event) {
+    $(".navbar_link").on('click', function(event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
