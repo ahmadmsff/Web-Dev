@@ -75,7 +75,7 @@ ul li a {
 
 ul li a:hover:not(.active) {border-bottom: 4px solid orange;}
 
-ul li a.active {background-color: #4CAF50;}
+ul li a.active {border-bottom: 4px solid orange;}
 
 ul li.navbar_item {float: right;}
 

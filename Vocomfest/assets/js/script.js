@@ -55,6 +55,8 @@ $(document).ready(function() {
 	});
     // End Scroll to top
 
+});
+
     // Scroll to section
     $(document).ready(function(){
     $(".navbar_link").on('click', function(event) {
@@ -70,7 +72,6 @@ $(document).ready(function() {
         });
     });
     // End scroll to section
-});
 function openModal() {
   document.getElementById('myModal').style.display = "block";
 }
